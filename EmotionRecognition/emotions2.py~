@@ -1,0 +1,78 @@
+from keras import optimizers
+from keras.layers.core import Dropout, Flatten, Dense
+from keras.layers import Convolution2D
+from keras.layers.pooling import MaxPooling2D
+from keras.layers import Input
+from keras.models import Sequential, Model
+from keras.callbacks import TensorBoard, ModelCheckpoint
+from dataset_loader import DatasetLoader
+import numpy as np
+from keras.callbacks import ReduceLROnPlateau
+import keras.backend.tensorflow_backend as KTF
+import math
+import tensorflow as tf
+import pdb
+
+class emotion_predictor:
+    def __init__(self):
+        self.dataset = DatasetLoader()
+        self.a = 3
+        #pdb.set_trace()
+        with KTF.tf.device('/gpu:0'):
+            gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction = 0.33333, allow_growth = False)
+            session_config = tf.ConfigProto(device_count = {'GPU': 1}, allow_soft_placement = False, log_device_placement = True, gpu_options = gpu_options)
+            KTF.set_session(tf.Session(config = session_config))
+            model = Sequential()
+            #model.add(Input(shape = (48, 48, 3)))
+            model.add(Convolution2D(64, (5, 5), strides = 1, activation='relu', input_shape = (48, 48, 1)))
+            model.add(MaxPooling2D(pool_size=(3,3), padding="same", strides=2))
+            model.add(Convolution2D(64, (5, 5), strides = 1, activation='relu'))
+            model.add(Dropout(0.3))
+            model.add(MaxPooling2D(pool_size=(3,3), padding="same", strides=2))
+            model.add(Convolution2D(128, (4, 4), strides = 1, activation='relu'))
+            model.add(Dropout(0.3))
+            model.add(Flatten())
+            model.add(Dense(3072, activation='relu'))
+            model.add(Dense(1024, activation='relu'))
+            model.add(Dense(7, activation='softmax'))
+            model_input = Input(shape = (48, 48, 1))
+            output = model(model_input)
+            print(self.a)
+        print(output.device)
+        #sess = tf.Session()
+        #sess_out = sess.run([output])
+        print(self.a)
+        self.model = Model(input = model_input, output = output)
+        sgd = optimizers.SGD(lr = 0.01, decay = 0.0, momentum = 0.9, nesterov = False)
+        self.model.compile(loss='categorical_crossentropy', optimizer = sgd, metrics = ["accuracy"])
+        
+
+    def train(self, n_epoch = 200, batch_size = 100, shuffle = True, 
+			checkpoints = "./checkpoints_lrdecay/checkpoint.hdf5", logs = "./log3"):
+        X_train = self.dataset.X_train.astype(np.uint8)
+        y_train = self.dataset.y_train.astype(np.uint8)
+        X_test = self.dataset.X_test.astype(np.uint8)
+        y_test = self.dataset.y_test.astype(np.uint8)
+        clbTFboard = TensorBoard(log_dir = logs, histogram_freq = 1, write_graph = False)
+        checkpointer = ModelCheckpoint(filepath=checkpoints, verbose = 0,
+                                       save_best_only = False)
+        reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.5,
+                  patience=5, min_lr=0.00001)
+        clbks = [clbTFboard, checkpointer, reduce_lr]
+        self.model.fit(X_train, y_train, batch_size = batch_size, epochs = n_epoch,
+                       validation_data=(X_test, y_test), callbacks = clbks, verbose = 1,
+                       shuffle = True)
+
+	def predict(self, img):
+		return self.model.predict_on_batch([img])[0]
+
+	def load_model(self, filepath = "checkpoint.hdf5"):
+#        print "[+] Model loaded"  
+		self.model.load_weights(filepath)
+
+	def save_model(self, filepath = "./checkpoints/checkpoint.hdf5"):
+		self.model.load_weights(filepath)
+
+if __name__ == "__main__":
+	test = emotion_predictor()
+	test.train()

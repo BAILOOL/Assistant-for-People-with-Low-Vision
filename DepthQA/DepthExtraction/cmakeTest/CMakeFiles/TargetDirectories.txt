@@ -1,1 +1,0 @@
-/home/bosch-server/Desktop/CurrentCode/caffe/examples/DepthExtraction/cmakeTest/CMakeFiles/Depth_extraction.dir

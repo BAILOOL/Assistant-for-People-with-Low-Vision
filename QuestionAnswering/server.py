@@ -1,0 +1,120 @@
+from flask import Flask, request, redirect, url_for, jsonify, send_from_directory
+from time import time
+from QuestionAnswering import QuestionAnswering
+import hashlib
+import os
+
+import pdb
+
+UPLOAD_FOLDER = './uploads/'
+VIZ_FOLDER = './viz/'
+ALLOWED_EXTENSIONS = set(['jpg', 'jpeg', 'JPG', 'JPEG', 'png', 'PNG'])
+
+# global variables
+app = Flask(__name__, static_url_path='')
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
+questionAnswering = None
+feature_cache = {}
+
+# helpers
+def setup():
+    global questionAnswering
+
+    # uploads
+    if not os.path.exists(UPLOAD_FOLDER):
+        os.makedirs(UPLOAD_FOLDER)
+
+    if not os.path.exists(VIZ_FOLDER):
+        os.makedirs(VIZ_FOLDER)
+
+    questionAnswering = QuestionAnswering()
+    print 'Finished setup'
+
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
+
+
+# routes
+@app.route('/', methods=['GET'])
+def index():
+    return app.send_static_file('demo2.html')
+
+@app.route('/api/upload_image', methods=['POST'])
+def upload_image():
+    file = request.files['file']
+    if not file:
+        return jsonify({'error': 'No file was uploaded.'})
+    if allowed_file(file.filename):
+        start = time()
+        file_hash = hashlib.md5(file.read()).hexdigest()
+        if file_hash in feature_cache:
+            json = {'img_id': file_hash, 'time': time() - start}
+            return jsonify(json)
+        save_path = os.path.join(app.config['UPLOAD_FOLDER'], file_hash + '.jpg')
+        file.seek(0)
+        file.save(save_path)
+        feature = questionAnswering.img_handler(save_path)
+        if feature is None:
+            return jsonify({'error': 'Error reading image.'})
+
+        feature_cache[file_hash] = feature
+        json = {'img_id': file_hash, 'time': time() - start}
+        return jsonify(json)
+    else:
+        return jsonify({'error': 'Please upload a JPG or PNG.'})
+
+@app.route('/api/upload_question', methods=['POST'])
+def upload_question():
+    img_hash = request.form['img_id']
+    if img_hash not in feature_cache:
+        return jsonify({'error': 'Unknown image ID. Try uploading the image again.'})
+    start = time()
+    img_feature = feature_cache[img_hash]
+    question = request.form['question']
+    img_ques_hash = hashlib.md5(img_hash + question).hexdigest()
+
+    source_img_path = os.path.join(app.config['UPLOAD_FOLDER'], img_hash + '.jpg')
+    json = questionAnswering.get_answers(question, img_feature, source_img_path, img_ques_hash, VIZ_FOLDER)
+
+
+    return jsonify(json)
+
+@app.route('/api/upload_all', methods=['POST'])
+def upload_all():
+    file = request.files['image']
+    if not file:
+        print "not ok"
+        return jsonify({'error': 'No file was uploaded.'})
+
+    if not allowed_file(file.filename):
+        return jsonify({'error': 'Please upload a JPG or PNG.'})
+
+    question = request.form['request']
+    if not question:
+        return jsonify({'error': 'No question was uploaded.'})
+
+
+    # handle image first
+    file_hash = hashlib.md5(file.read()).hexdigest()
+    save_path = os.path.join(app.config['UPLOAD_FOLDER'], file_hash + '.jpg')
+    file.seek(0)
+    file.save(save_path)
+    feature = questionAnswering.img_handler(save_path)
+    if feature is None:
+        return jsonify({'error': 'Error reading image.'})
+
+    # image + question
+    img_ques_hash = hashlib.md5(file_hash + question).hexdigest()
+    json = questionAnswering.get_answers(question, feature, save_path, img_ques_hash, VIZ_FOLDER)
+
+    return jsonify(json)
+
+@app.route('/viz/<filename>')
+def get_visualization(filename):
+    return send_from_directory(VIZ_FOLDER, filename)
+
+if __name__ == '__main__':
+    setup()
+    app.run(host='0.0.0.0', port=5000, debug=False)

@@ -1,0 +1,16 @@
+#include <python2.7/Python.h>
+extern "C"{
+	PyObject* foo(const char* filename)
+	{
+	    PyObject* result = PyList_New(0);
+	    int i;
+	    int j; 
+
+	    for (i = 0; i < 100; ++i)
+	    {
+		PyList_Append(result, PyInt_FromLong(i));
+	    }
+
+	    return result;
+	}
+}

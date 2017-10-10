@@ -4,6 +4,8 @@
 
 Description of important files in this directory:
 ```
-file #description
-file2 #description
+symbol                      # init commit detection for detection
+Detectface.py               # class for face detection
+detection.py                # fixes bgr to rgb conversion in detection
+mxnet-face-fr50-symbol.json # pretrained model for face detection
 ```

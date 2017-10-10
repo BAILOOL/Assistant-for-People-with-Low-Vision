@@ -5,10 +5,6 @@
 
 Description of important files in this directory:
 ```
-detection               # description
-dataset_loader.py       # description
-emotion_predictor.py    #
-emotions.py             #
-emotions2.py            #
-tf_emotion_class.py     #
+detection               # folder that consists face detection network
+tf_emotion_class.py     # class for emotion recognition
 ```

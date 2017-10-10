@@ -2,6 +2,6 @@
 
 Description of important files in this directory:
 ```
-file #description
-file2 #description
+data    # folder with data
+lstm.py # class for user input classification
 ```

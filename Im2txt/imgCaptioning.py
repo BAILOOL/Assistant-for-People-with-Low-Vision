@@ -30,8 +30,6 @@ class imgCap(object):
 		# Create the vocabulary.
 		self.vocab = vocabulary.Vocabulary(VOCAB_FILE)
 		gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.25, visible_device_list="0")
-		#config=tf.ConfigProto(gpu_options=gpu_options, device_count = {'GPU': 2})
-		#config.gpu_options.allow_growth = False
 
 		config=tf.ConfigProto(gpu_options=gpu_options)
 	                

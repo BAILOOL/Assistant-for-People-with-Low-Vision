@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeLayout"><attr name="gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="center" value="0x11"/>
+        </attr><attr format="integer" name="timeOffset"/></declare-styleable>
+    <declare-styleable name="TimeView"><attr format="dimension" name="textSize">
+            
+            <enum name="match_parent" value="-1"/>
+        </attr><attr format="reference" name="textArray"/><attr format="enum" name="timeType">
+           
+           <enum name="constant" value="0"/>
+           
+           <enum name="seconds" value="1"/>
+           
+           <enum name="seconds_digit2" value="2"/>
+           
+           <enum name="seconds_digit1" value="3"/>
+           
+           <enum name="minutes" value="4"/>
+           
+           <enum name="minutes_digit2" value="5"/>
+           
+           <enum name="minutes_digit1" value="6"/>
+           
+           <enum name="hours" value="7"/>
+           
+           <enum name="hours_digit2" value="8"/>
+           
+           <enum name="hours_digit1" value="9"/>
+           
+           <enum name="days_of_week" value="10"/>
+           
+           <enum name="days_of_month" value="11"/>
+           
+           <enum name="days_of_month_digit2" value="12"/>
+           
+           <enum name="days_of_month_digit1" value="13"/>
+           
+           <enum name="days_of_year" value="14"/>
+           
+           <enum name="days_of_year_digit3" value="15"/>
+           
+           <enum name="days_of_year_digit2" value="16"/>
+           
+           <enum name="days_of_year_digit1" value="17"/>
+           
+           <enum name="months" value="18"/>
+           
+           <enum name="months_digit2" value="19"/>
+           
+           <enum name="months_digit1" value="20"/>
+           
+           <enum name="years_digit4" value="21"/>
+           
+           <enum name="years_digit3" value="22"/>
+           
+           <enum name="years_digit2" value="23"/>
+           
+           <enum name="years_digit1" value="24"/>
+           
+           <enum name="am_pm" value="25"/>
+           
+           <enum name="hours_fine" value="26"/>
+
+        </attr><attr format="string" name="template"/><attr format="string" name="fontPath"/></declare-styleable>
+    <string name="app_name">SmartExtensionAPI</string>
+</resources>

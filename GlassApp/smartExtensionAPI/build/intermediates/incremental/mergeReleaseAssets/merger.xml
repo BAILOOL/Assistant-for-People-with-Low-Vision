@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartExtensionAPI/src/main/assets"/><source path="/home/richard/AndroidStudioProjects/GlassApp/smartExtensionAPI/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartExtensionAPI/src/release/assets"/></dataSet></merger>

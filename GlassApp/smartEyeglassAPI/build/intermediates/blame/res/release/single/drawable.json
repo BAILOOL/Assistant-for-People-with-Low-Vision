@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/drawable/headset_pro_focus_xs_icn.png",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/headset_pro_focus_xs_icn.png"
+    },
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/drawable/text_bg.png",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/text_bg.png"
+    },
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/drawable/widget_frame.png",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/widget_frame.png"
+    },
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/drawable/badge_counter.png",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/badge_counter.png"
+    },
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/drawable/headset_pro_ok_icn.png",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/headset_pro_ok_icn.png"
+    },
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/drawable/headset_pro_cancel_icn.png",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/headset_pro_cancel_icn.png"
+    }
+]

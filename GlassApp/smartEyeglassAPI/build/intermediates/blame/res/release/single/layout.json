@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/layout/smart_watch_widget.xml",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/layout/smart_watch_widget.xml"
+    },
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/layout/smarteyeglass_widgetcard.xml",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/src/main/res/layout/smarteyeglass_widgetcard.xml"
+    },
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/res/merged/release/layout/smart_watch_notification_widget.xml",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/layout/smart_watch_notification_widget.xml"
+    }
+]

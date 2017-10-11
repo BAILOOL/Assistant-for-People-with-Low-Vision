@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values-ja/headset_pro.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 139,
+                        "endColumn": 52,
+                        "endOffset": 187
+                    }
+                }
+            }
+        ]
+    }
+]

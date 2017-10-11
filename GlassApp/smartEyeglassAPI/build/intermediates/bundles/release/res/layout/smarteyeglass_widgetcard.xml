@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/smarteyeglass_widget_width"
+    android:layout_height="@dimen/smarteyeglass_widget_height" >
+
+    <LinearLayout
+            android:id="@+id/smarteyeglass_widget_inner"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <!-- ICON/Text -->
+        <ImageView
+                android:id="@+id/smarteyeglass_widget_icon"
+                android:layout_width="64px"
+                android:layout_height="64px"
+                android:layout_marginLeft="2px"
+                />
+
+        <TextView
+                android:id="@+id/smarteyeglass_widget_text"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10px"
+                />
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/smarteyeglass_widget_inner_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</RelativeLayout>

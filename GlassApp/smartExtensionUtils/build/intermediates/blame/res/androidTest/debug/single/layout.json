@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/build/intermediates/res/merged/androidTest/debug/layout/smart_watch_widget.xml",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/build/intermediates/bundles/debug/res/layout/smart_watch_widget.xml"
+    },
+    {
+        "merged": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/build/intermediates/res/merged/androidTest/debug/layout/smart_watch_notification_widget.xml",
+        "source": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/build/intermediates/bundles/debug/res/layout/smart_watch_notification_widget.xml"
+    }
+]

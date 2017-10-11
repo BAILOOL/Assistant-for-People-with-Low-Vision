@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values-zh-rTW/headset_pro.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 145,
+                        "endColumn": 52,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 59,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values-zh-rTW/smart_watch.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 59,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 168,
+                    "endColumn": 58,
+                    "endOffset": 222
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values-zh-rTW/smart_watch.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 58,
+                        "endOffset": 172
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GlassApp</string>
+    <!-- Name of extension, shown in preferences -->
+    <string name="extension_name">Livestreaming App for SmartEyeglass</string>
+    <!-- Configuration title shown in preferences -->
+    <string name="configuration_text">Livestreaming App for SmartEyeglass Settings</string>
+    <string name="preference_option_read_me">READ ME</string>
+    <!-- Read me text shown in dialog -->
+    <string name="preference_option_read_me_txt">The camera extension uses the camera of SmartEyeglass device.\n
+                                                 When you tap the touch sensor, the selected mode shall be activated.</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="speech_prompt">Speak your request&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+</resources>

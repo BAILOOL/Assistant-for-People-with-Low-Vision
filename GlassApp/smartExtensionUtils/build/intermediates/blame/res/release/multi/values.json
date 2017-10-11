@@ -1,0 +1,691 @@
+[
+    {
+        "outputFile": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 734,
+                        "endColumn": 65,
+                        "endOffset": 795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endColumn": 67,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 801,
+                        "endColumn": 67,
+                        "endOffset": 864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 66,
+                    "endOffset": 251
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 870,
+                        "endColumn": 66,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 256,
+                    "endColumn": 63,
+                    "endOffset": 315
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1207,
+                        "endColumn": 63,
+                        "endOffset": 1266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 320,
+                    "endColumn": 65,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1272,
+                        "endColumn": 65,
+                        "endOffset": 1333
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 64,
+                    "endOffset": 446
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1339,
+                        "endColumn": 64,
+                        "endOffset": 1399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 3057,
+                    "endColumn": 57,
+                    "endOffset": 3110
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/headset_pro.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 57,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3115,
+                    "endColumn": 57,
+                    "endOffset": 3168
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/headset_pro.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 57,
+                        "endOffset": 216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 3173,
+                    "endColumn": 52,
+                    "endOffset": 3221
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/headset_pro.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 52,
+                        "endOffset": 157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 3226,
+                    "endColumn": 60,
+                    "endOffset": 3282
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 158,
+                        "endColumn": 60,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 3287,
+                    "endColumn": 59,
+                    "endOffset": 3342
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 59,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 3347,
+                    "endColumn": 61,
+                    "endOffset": 3404
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endColumn": 61,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3409,
+                    "endColumn": 60,
+                    "endOffset": 3465
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endColumn": 60,
+                        "endOffset": 601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3470,
+                    "endColumn": 61,
+                    "endOffset": 3527
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 607,
+                        "endColumn": 61,
+                        "endOffset": 664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3532,
+                    "endColumn": 60,
+                    "endOffset": 3588
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 670,
+                        "endColumn": 60,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3593,
+                    "endColumn": 63,
+                    "endOffset": 3652
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 478,
+                        "endColumn": 63,
+                        "endOffset": 537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3657,
+                    "endColumn": 62,
+                    "endOffset": 3715
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 62,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 3720,
+                    "endColumn": 59,
+                    "endOffset": 3775
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endColumn": 59,
+                        "endOffset": 406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 3780,
+                    "endColumn": 58,
+                    "endOffset": 3834
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch_2.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 58,
+                        "endOffset": 345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 3839,
+                    "endColumn": 58,
+                    "endOffset": 3893
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 58,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 3898,
+                    "endColumn": 57,
+                    "endOffset": 3951
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 93,
+                        "endColumn": 57,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3956,
+                    "endColumn": 59,
+                    "endOffset": 4011
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 654,
+                        "endColumn": 59,
+                        "endOffset": 709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4016,
+                    "endColumn": 58,
+                    "endOffset": 4070
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 715,
+                        "endColumn": 58,
+                        "endOffset": 769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4075,
+                    "endColumn": 65,
+                    "endOffset": 4136
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1138,
+                        "endColumn": 65,
+                        "endOffset": 1199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4141,
+                    "endColumn": 95,
+                    "endOffset": 4232
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 777,
+                        "endColumn": 95,
+                        "endOffset": 868
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4237,
+                    "endColumn": 94,
+                    "endOffset": 4327
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 970,
+                        "endColumn": 94,
+                        "endOffset": 1060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4332,
+                    "endColumn": 94,
+                    "endOffset": 4422
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 874,
+                        "endColumn": 94,
+                        "endOffset": 964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4427,
+                    "endColumn": 62,
+                    "endOffset": 4485
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 406,
+                        "endColumn": 62,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4490,
+                    "endColumn": 63,
+                    "endOffset": 4549
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 63,
+                        "endOffset": 337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4554,
+                    "endColumn": 72,
+                    "endOffset": 4622
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 578,
+                        "endColumn": 72,
+                        "endOffset": 646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4627,
+                    "endColumn": 104,
+                    "endOffset": 4727
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 472,
+                        "endColumn": 104,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4732,
+                    "endColumn": 61,
+                    "endOffset": 4789
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 61,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4794,
+                    "endColumn": 62,
+                    "endOffset": 4852
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smart_watch.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 62,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4857,
+                    "endColumn": 60,
+                    "endOffset": 4913
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smarteyeglass.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 60,
+                        "endOffset": 113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4918,
+                    "endColumn": 59,
+                    "endOffset": 4973
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/src/main/res/values/smarteyeglass.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 59,
+                        "endOffset": 174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4978,
+                    "endColumn": 54,
+                    "endOffset": 5028
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionUtils/build/intermediates/exploded-aar/GlassApp/smartExtensionAPI/unspecified/res/values/values.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 2661,
+                        "endColumn": 54,
+                        "endOffset": 2711
+                    }
+                }
+            }
+        ]
+    }
+]

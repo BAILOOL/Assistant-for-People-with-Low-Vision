@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription" severity="ignore">
+        <ignore path="res/layout/smart_watch_notification_widget.xml" />
+        <ignore path="res/layout/smart_watch_widget.xml" />
+    </issue>
+    <issue id="IconLocation" severity="ignore" />
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+    <issue id="PxUsage" severity="ignore">
+        <ignore path="res/layout/smart_watch_notification_widget.xml" />
+        <ignore path="res/layout/smart_watch_widget.xml" />
+    </issue>
+    <issue id="UnusedResources" severity="ignore">
+        <ignore path="res/values/headset_pro.xml" />
+        <ignore path="res/values/smart_watch.xml" />
+        <ignore path="res/values/smart_watch_2.xml" />
+    </issue>
+</lint>

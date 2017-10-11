@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified$Generated" generated="true"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionAPI/unspecified/res"/></dataSet><dataSet config="unspecified$Generated" generated="true"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/bundles/debug/res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/src/androidTest/res"/><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/generated/res/rs/androidTest/debug"/><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/generated/res/resValues/androidTest/debug"/></dataSet><dataSet config="unspecified" from-dependency="true" generated-set="unspecified$Generated"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionAPI/unspecified/res"><file path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionAPI/unspecified/res/values/values.xml" qualifiers=""><declare-styleable name="TimeView"><attr format="dimension" name="textSize">
+            
+            <enum name="match_parent" value="-1"/>
+        </attr><attr format="reference" name="textArray"/><attr format="enum" name="timeType">
+           
+           <enum name="constant" value="0"/>
+           
+           <enum name="seconds" value="1"/>
+           
+           <enum name="seconds_digit2" value="2"/>
+           
+           <enum name="seconds_digit1" value="3"/>
+           
+           <enum name="minutes" value="4"/>
+           
+           <enum name="minutes_digit2" value="5"/>
+           
+           <enum name="minutes_digit1" value="6"/>
+           
+           <enum name="hours" value="7"/>
+           
+           <enum name="hours_digit2" value="8"/>
+           
+           <enum name="hours_digit1" value="9"/>
+           
+           <enum name="days_of_week" value="10"/>
+           
+           <enum name="days_of_month" value="11"/>
+           
+           <enum name="days_of_month_digit2" value="12"/>
+           
+           <enum name="days_of_month_digit1" value="13"/>
+           
+           <enum name="days_of_year" value="14"/>
+           
+           <enum name="days_of_year_digit3" value="15"/>
+           
+           <enum name="days_of_year_digit2" value="16"/>
+           
+           <enum name="days_of_year_digit1" value="17"/>
+           
+           <enum name="months" value="18"/>
+           
+           <enum name="months_digit2" value="19"/>
+           
+           <enum name="months_digit1" value="20"/>
+           
+           <enum name="years_digit4" value="21"/>
+           
+           <enum name="years_digit3" value="22"/>
+           
+           <enum name="years_digit2" value="23"/>
+           
+           <enum name="years_digit1" value="24"/>
+           
+           <enum name="am_pm" value="25"/>
+           
+           <enum name="hours_fine" value="26"/>
+
+        </attr><attr format="string" name="template"/><attr format="string" name="fontPath"/></declare-styleable><string name="app_name">SmartExtensionAPI</string><declare-styleable name="TimeLayout"><attr name="gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="center" value="0x11"/>
+        </attr><attr format="integer" name="timeOffset"/></declare-styleable></file></source></dataSet><dataSet config="unspecified" from-dependency="true" generated-set="unspecified$Generated"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res"><file name="smart_watch_widget" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/layout/smart_watch_widget.xml" qualifiers="" type="layout"/><file name="smart_watch_notification_widget" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/layout/smart_watch_notification_widget.xml" qualifiers="" type="layout"/><file path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/values-zh-rTW/values-zh-rTW.xml" qualifiers="zh-rTW"><dimen name="smart_watch_text_size_normal">16px</dimen><dimen name="headset_pro_text_size">16px</dimen><dimen name="smart_watch_text_size_small">14px</dimen></file><file name="text_bg" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/text_bg.png" qualifiers="" type="drawable"/><file name="widget_frame" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/widget_frame.png" qualifiers="" type="drawable"/><file name="headset_pro_ok_icn" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/headset_pro_ok_icn.png" qualifiers="" type="drawable"/><file name="headset_pro_cancel_icn" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/headset_pro_cancel_icn.png" qualifiers="" type="drawable"/><file name="headset_pro_focus_xs_icn" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/headset_pro_focus_xs_icn.png" qualifiers="" type="drawable"/><file name="badge_counter" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/drawable/badge_counter.png" qualifiers="" type="drawable"/><file path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/values/values.xml" qualifiers=""><dimen name="smart_watch_text_size_widget_name">@dimen/smart_watch_text_size_normal</dimen><dimen name="smart_watch_text_size_widget_time">@dimen/smart_watch_text_size_small</dimen><dimen name="smart_watch_widget_height_inner">92px</dimen><color name="smart_watch_text_color_white">#ffffffff</color><dimen name="smarteyeglass_control_height">138px</dimen><color name="smart_watch_2_text_color_white">#ffffffff</color><color name="smart_watch_text_color_orange">#fff0832d</color><dimen name="headset_pro_control_height">36px</dimen><dimen name="headset_pro_control_width">128px</dimen><dimen name="smart_watch_2_widget_cell_width">43px</dimen><color name="smart_watch_2_text_color_orange">#fff0832d</color><dimen name="smart_watch_2_widget_height">170px</dimen><dimen name="smart_watch_widget_text_background_height">60px</dimen><dimen name="smart_watch_control_width">128px</dimen><dimen name="smart_watch_text_size_normal">14px</dimen><dimen name="headset_pro_text_size">14px</dimen><color name="smart_watch_text_color_grey">#ffe6e6e6</color><dimen name="smart_watch_widget_height_outer">110px</dimen><dimen name="smart_watch_widget_text_background_width">@dimen/smart_watch_widget_width_inner</dimen><dimen name="smart_watch_2_widget_cell_height">34px</dimen><dimen name="smart_watch_2_control_height">176px</dimen><dimen name="smart_watch_text_size_small">12px</dimen><dimen name="smart_watch_text_size_widget_text">@dimen/smart_watch_text_size_small</dimen><dimen name="smart_watch_2_widget_width">215px</dimen><dimen name="smart_watch_widget_width_outer">128px</dimen><dimen name="smart_watch_2_text_size_large">20px</dimen><dimen name="smart_watch_2_control_width">220px</dimen><dimen name="smart_watch_control_height">128px</dimen><dimen name="smart_watch_widget_width_inner">92px</dimen><dimen name="smart_watch_2_statusbar_height">28px</dimen><dimen name="smart_watch_2_text_size_small">13px</dimen><dimen name="smart_watch_2_text_size_medium">15px</dimen><dimen name="smart_watch_text_size_widget_badge">14px</dimen><color name="smart_watch_2_text_color_grey">#ffe6e6e6</color><dimen name="smarteyeglass_control_width">419px</dimen></file><file path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/exploded-aar/GlassApp/smartExtensionUtils/unspecified/res/values-ja/values-ja.xml" qualifiers="ja"><dimen name="headset_pro_text_size">16px</dimen></file></source></dataSet><dataSet config="debug" from-dependency="true" generated-set="debug$Generated"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/bundles/debug/res"><file name="smarteyeglass_widgetcard" path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/bundles/debug/res/layout/smarteyeglass_widgetcard.xml" qualifiers="" type="layout"/><file path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/intermediates/bundles/debug/res/values/values.xml" qualifiers=""><dimen name="smarteyeglass_text_size_large">40px</dimen><dimen name="smarteyeglass_widget_width">380px</dimen><dimen name="smarteyeglass_control_height">138px</dimen><integer name="api_version">3</integer><string name="app_name">SmartEyeglassAPI</string><string name="api_version_error_throw_message">A later version of SmartEyeglass application is required. Update to the latest version.</string><dimen name="smarteyeglass_control_width">419px</dimen><dimen name="smarteyeglass_text_size_normal">20px</dimen><dimen name="smarteyeglass_text_size_small">18px</dimen><dimen name="smarteyeglass_widget_height">60px</dimen></file></source></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/src/androidTest/res"/><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/generated/res/rs/androidTest/debug"/><source path="/home/richard/AndroidStudioProjects/GlassApp/smartEyeglassAPI/build/generated/res/resValues/androidTest/debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="TimeLayout"><attr name="gravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="center" value="0x11"/>
+        </attr><attr format="integer" name="timeOffset"/></declare-styleable><declare-styleable name="TimeView"><attr format="dimension" name="textSize">
+            
+            <enum name="match_parent" value="-1"/>
+        </attr><attr format="reference" name="textArray"/><attr format="enum" name="timeType">
+           
+           <enum name="constant" value="0"/>
+           
+           <enum name="seconds" value="1"/>
+           
+           <enum name="seconds_digit2" value="2"/>
+           
+           <enum name="seconds_digit1" value="3"/>
+           
+           <enum name="minutes" value="4"/>
+           
+           <enum name="minutes_digit2" value="5"/>
+           
+           <enum name="minutes_digit1" value="6"/>
+           
+           <enum name="hours" value="7"/>
+           
+           <enum name="hours_digit2" value="8"/>
+           
+           <enum name="hours_digit1" value="9"/>
+           
+           <enum name="days_of_week" value="10"/>
+           
+           <enum name="days_of_month" value="11"/>
+           
+           <enum name="days_of_month_digit2" value="12"/>
+           
+           <enum name="days_of_month_digit1" value="13"/>
+           
+           <enum name="days_of_year" value="14"/>
+           
+           <enum name="days_of_year_digit3" value="15"/>
+           
+           <enum name="days_of_year_digit2" value="16"/>
+           
+           <enum name="days_of_year_digit1" value="17"/>
+           
+           <enum name="months" value="18"/>
+           
+           <enum name="months_digit2" value="19"/>
+           
+           <enum name="months_digit1" value="20"/>
+           
+           <enum name="years_digit4" value="21"/>
+           
+           <enum name="years_digit3" value="22"/>
+           
+           <enum name="years_digit2" value="23"/>
+           
+           <enum name="years_digit1" value="24"/>
+           
+           <enum name="am_pm" value="25"/>
+           
+           <enum name="hours_fine" value="26"/>
+
+        </attr><attr format="string" name="template"/><attr format="string" name="fontPath"/></declare-styleable></configuration></mergedItems></merger>

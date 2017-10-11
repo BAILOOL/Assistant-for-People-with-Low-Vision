@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="smarteyeglass_control_height">138px</dimen>
+    <dimen name="smarteyeglass_control_width">419px</dimen>
+</resources>

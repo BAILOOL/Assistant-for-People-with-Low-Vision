@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+    <!-- At least one dummy resource is needed to satisfy aapt.
+    Otherwise it complains about no res folder. -->
+    <string name="app_name">SmartEyeglassAPI</string>
+    
+    <string name="api_version_error_throw_message">A later version of SmartEyeglass application is required. Update to the latest version.</string>
+</resources>

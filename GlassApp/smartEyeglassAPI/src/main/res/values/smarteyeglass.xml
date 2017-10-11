@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Constants for SmartEyeglass. -->
+<resources>
+    <dimen name="smarteyeglass_control_width">419px</dimen>
+    <dimen name="smarteyeglass_control_height">138px</dimen>
+
+    <dimen name="smarteyeglass_widget_width">380px</dimen>
+    <dimen name="smarteyeglass_widget_height">60px</dimen>
+
+    <dimen name="smarteyeglass_text_size_small">18px</dimen>
+    <dimen name="smarteyeglass_text_size_normal">20px</dimen>
+    <dimen name="smarteyeglass_text_size_large">40px</dimen>
+</resources>

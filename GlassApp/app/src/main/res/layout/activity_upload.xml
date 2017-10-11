@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/view_background"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!-- To display picture taken -->
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        android:layout_marginTop="15dp"/>
+
+    <!-- Videoview to preview recorded video -->
+
+    <VideoView
+        android:id="@+id/videoPreview"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:visibility="gone"
+        android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout">
+
+            <TextView
+                android:id="@+id/txtPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/txt_font"
+                android:textSize="30dp"
+                android:textAlignment="center" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_marginBottom="35dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btnSpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ico_mic2"
+            android:layout_above="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_on_mic"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:textStyle="normal"
+            android:id="@+id/textView4"
+            android:layout_above="@+id/btnSpeak"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/txtSpeechInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="26dp"
+            android:textStyle="normal"
+            android:layout_above="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

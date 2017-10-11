@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionAPI/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 2661,
+                    "endColumn": 54,
+                    "endOffset": 2711
+                },
+                "from": {
+                    "file": "/home/richard/AndroidStudioProjects/GlassApp/smartExtensionAPI/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 2661,
+                        "endColumn": 54,
+                        "endOffset": 2711
+                    }
+                }
+            }
+        ]
+    }
+]

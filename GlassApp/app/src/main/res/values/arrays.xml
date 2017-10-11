@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="jpeg_quality">
+        <item>"Standard"</item>
+        <item>"Fine"</item>
+        <item>"Super fine"</item>
+    </string-array>
+
+    <string-array name="jpeg_quality_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+
+    <string-array name="camera_resolution_still">
+        <item>"3M"</item>
+        <item>"1M"</item>
+        <item>"VGA"</item>
+        <item>"QVGA"</item>
+    </string-array>
+
+    <string-array name="camera_resolution_still_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"4"</item>
+        <item>"6"</item>
+    </string-array>
+
+    <string-array name="camera_resolution_movie">
+        <item>"QVGA"</item>
+    </string-array>
+
+    <string-array name="camera_resolution_movie_values">
+        <item>"6"</item>
+    </string-array>
+
+    <string-array name="recording_mode">
+        <item>"Still"</item>
+        <item>"Still to file"</item>
+        <item>"JPGStream LowRate"</item>
+        <item>"JPGStream HighRate"</item>
+    </string-array>
+
+    <string-array name="recording_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+</resources>

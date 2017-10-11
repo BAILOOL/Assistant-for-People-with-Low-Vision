@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Here we put strings that do not have to be translated. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="preference_key_read_me">preference_key_read_me</string>
+    <string name="preference_key_save_to_sdcard">preference_key_save_to_sdcard</string>
+    <string name="preference_key_jpeg_quality">preference_key_jpeg_quality</string>
+    <string name="preference_key_resolution_still">preference_key_resolution_still</string>
+    <string name="preference_key_resolution_movie">preference_key_resolution_movie</string>
+    <string name="preference_key_recordmode">preference_key_recording_mode</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="@string/preference_key_read_me"
+        android:title="@string/preference_option_read_me" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/preference_key_save_to_sdcard"
+        android:summary="Check to save photos taken to the sdcard"
+        android:title="Save photos" />
+
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/recording_mode"
+        android:entryValues="@array/recording_mode_values"
+        android:key="@string/preference_key_recordmode"
+        android:summary="Choose the recording mode"
+        android:title="Recording mode" />
+    <ListPreference
+        android:defaultValue="4"
+        android:entries="@array/camera_resolution_still"
+        android:entryValues="@array/camera_resolution_still_values"
+        android:key="@string/preference_key_resolution_still"
+        android:summary="Choose the camera resolution"
+        android:title="Camera resolution(Still)" />
+    <ListPreference
+        android:defaultValue="6"
+        android:entries="@array/camera_resolution_movie"
+        android:entryValues="@array/camera_resolution_movie_values"
+        android:key="@string/preference_key_resolution_movie"
+        android:summary="Choose the camera resolution"
+        android:title="Camera resolution(JPGStream)" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/jpeg_quality"
+        android:entryValues="@array/jpeg_quality_values"
+        android:key="@string/preference_key_jpeg_quality"
+        android:summary="Choose the camera JPEG quality"
+        android:title="Camera JPEG quality" />
+
+</PreferenceScreen>

@@ -1,6 +1,6 @@
 
 from detection.Detectface import DetectFaceClass
-from frontalization.frontalization import *
+from face_frontalization.frontalization import *
 import cv2
 
 import openface

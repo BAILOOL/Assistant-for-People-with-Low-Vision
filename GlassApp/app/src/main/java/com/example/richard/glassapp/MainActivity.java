@@ -109,18 +109,13 @@ public class MainActivity extends AppCompatActivity {
                 promptSpeechInput();
             }
         });
-
-        /*
-        IntentFilter filter = new IntentFilter(Intent.ACTION_MEDIA_BUTTON);
-        filter.addAction("android.intent.action.MEDIA_BUTTON");
-        HeadPhonesReceiver r = new HeadPhonesReceiver();
-        registerReceiver(r, filter);
-        */
-
+	
+	// add suppor for media button on headphones
         mAudioManager =  (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         mReceiverComponent = new ComponentName(this,HeadPhonesReceiver.class);
         mAudioManager.registerMediaButtonEventReceiver(mReceiverComponent);
 
+	// instantiate app extension service for Sony smartEyeGlass
         if (AppSampleExtensionService.object == null) {
             Intent intent = new Intent(Registration.Intents
                     .EXTENSION_REGISTER_REQUEST_INTENT);
@@ -145,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
         txtSpeechInput.setText(result);
     }
 
+    // class for uploading images/questions to the server
     public final class UploadTask extends AsyncTask<Void, Integer, String> {
         private Bitmap bitmap = null;
         private String fileName = null;
@@ -253,11 +249,6 @@ public class MainActivity extends AppCompatActivity {
                 networkResponse = "fail :(";
             }
 
-            /*
-            String lang = networkResponse.substring(0,3);
-            networkResponse = networkResponse.substring(3,networkResponse.length()-1);
-            Log.w("language of the response",lang);
-            */
             Log.w("networkResponse",networkResponse);
 
             //Play the response
@@ -351,6 +342,7 @@ public class MainActivity extends AppCompatActivity {
         t1.speak(text, TextToSpeech.QUEUE_FLUSH, null, utteranceId);
     }
 
+    // enable media headphones mediabutton
     public static class HeadPhonesReceiver extends BroadcastReceiver {
         public HeadPhonesReceiver(){
             super();
@@ -364,7 +356,6 @@ public class MainActivity extends AppCompatActivity {
             }
             int action = event.getAction();
             if (action == KeyEvent.ACTION_DOWN) {
-                // do something
                 Log.d(Constants.LOG_TAG, "button down");
                 MainActivity.object.promptSpeechInput();
 

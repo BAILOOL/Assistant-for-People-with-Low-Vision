@@ -156,7 +156,8 @@ public final class GlassAppCameraControl extends ControlExtension {
         super.onTouch(event);
         int action = event.getAction();
         if (action == Control.TapActions.DOUBLE_TAP){
-            if (bitmap == null) return;
+	    // send question to the server on a double tap
+            if (bitmap == null) return;	// did not take a picture
 
             ByteArrayOutputStream bao = new ByteArrayOutputStream();
             //Constants.getCameraData.compress(Bitmap.CompressFormat.JPEG, 100, bao);
@@ -169,41 +170,13 @@ public final class GlassAppCameraControl extends ControlExtension {
 
     }
 
-    /**
-     * Respond to tap on touch pad by triggering camera capture
-     */
-    /*
-    @Override
-    public void onTouch(final ControlTouchEvent event) {
-        if (event.getAction() == Control.TapActions.SINGLE_TAP) {
-            if (recordingMode == SmartEyeglassControl.Intents.CAMERA_MODE_STILL ||
-                    recordingMode == SmartEyeglassControl.Intents.CAMERA_MODE_STILL_TO_FILE) {
-                if (!cameraStarted) {
-                    initializeCamera();
-                }
-                Log.d(Constants.LOG_TAG, "Select button pressed -> cameraCapture()");
-                // Call for camera capture for Still recording modes.
-                utils.requestCameraCapture();
-            } else {
-                if (!cameraStarted) {
-                    initializeCamera();
-                } else {
-                    cleanupCamera();
-                }
-                updateDisplay();
-            }
-        }
-
-    }
-    */
-
-
 
     @Override
     public void onTap(int action, long timeStamp){
         super.onTap(action, timeStamp);
 
         if (action == Control.TapActions.SINGLE_TAP) {
+	    // take a picture on a single tap
             MainActivity.object.playText("Picture being taken");
             if (recordingMode == SmartEyeglassControl.Intents.CAMERA_MODE_STILL ||
                     recordingMode == SmartEyeglassControl.Intents.CAMERA_MODE_STILL_TO_FILE) {
@@ -232,7 +205,10 @@ public final class GlassAppCameraControl extends ControlExtension {
         Log.d(Constants.LOG_TAG, "swiped!");
         super.onSwipe(direction);
 
-        /* avoid double swipe */
+        /* 
+	 * Glass sometimes registers swipe twice.
+	 * hotfix: avoid double swipe.
+	 */
         boolean cont = requestSent.getAndSet(true);
         if (cont){
             return;
@@ -252,6 +228,7 @@ public final class GlassAppCameraControl extends ControlExtension {
     }
 
     public static void clearRequest(){
+        // callback for finishing request upload (refere to onSwipe function defenition)
         requestSent.set(false);
     }
 
@@ -378,6 +355,7 @@ public final class GlassAppCameraControl extends ControlExtension {
         byte[] data = null;
 
         if ((event.getData() != null) && ((event.getData().length) > 0)) {
+	    // get data and store it to Bitmap
             data = event.getData();
             bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
             BitmapFactory.Options options = new BitmapFactory.Options();
@@ -392,7 +370,8 @@ public final class GlassAppCameraControl extends ControlExtension {
 
         MainActivity.object.previewMedia(bitmap1);
         MainActivity.object.playText("Picture uploaded");
-
+	
+	// We can also save the data, but it is not thread-safe, so we just removed this step
         /*
         if (saveToSdcard == true) {
             String fileName = saveFilePrefix + String.format("%04d", saveFileIndex) + ".jpg";

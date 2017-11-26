@@ -60,24 +60,10 @@ class Frontalization(object):
 
     def frontalize(self, img):
         lmarks = feature_detection.get_landmarks1(img)
-        '''
-        plt.figure()
-        plt.title('Landmarks Detected')
-        plt.imshow(img[:, :, ::-1])
-        plt.scatter(lmarks[0][:, 0], lmarks[0][:, 1])
-        '''
 
         proj_matrix, camera_matrix, rmat, tvec = calib.estimate_camera(self.model3D, lmarks[0])
         frontal_raw, frontal_sym = frontalize.frontalize(img, proj_matrix, self.model3D.ref_U, self.eyemask)
-        '''
-        plt.figure()
-        plt.title('Frontalized no symmetry')
-        plt.imshow(frontal_raw[:, :, ::-1])
-        plt.figure()
-        plt.title('Frontalized with soft symmetry')
-        plt.imshow(frontal_sym[:, :, ::-1])
-        plt.show()
-        '''
+
         return frontal_raw
 
     def frontalize_2d(self, img):
